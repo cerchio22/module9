@@ -1,0 +1,175 @@
+
+
+/* !!!opmaak index.php!!! */
+
+.wauw {
+  margin-top: 45px;
+  margin-left: 125px;
+}
+
+.margin {
+    margin-left: 464px;
+    margin-top: -262px;
+}
+
+.card-img-top {
+    margin: -1px;
+}
+
+.hoi {
+    margin-left: 808px;
+    margin-top: -261px;
+}
+
+.boy {
+    margin-top: 55px;
+    margin-left: 300px;
+}
+
+.song {
+    margin-left: 651px;
+    margin-top: -261px;
+}
+
+/* !!!!!!eurovision2017!!!!!! */
+
+.portugal {
+    margin-top: 35px;
+    margin-left: 135px;
+}
+
+.bulgarije {
+    margin-left: 505px;
+    margin-top: -406px;
+}
+
+.moldavie {
+    margin-left: 880px;
+    margin-top: -404px;
+}
+
+/* !!!!!eurovision2018!!!!! */
+
+.israel {
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.cyprus {
+    margin-left: 500px;
+    margin-top: -456px;
+}
+
+.oostenrijk {
+    margin-left: 905px;
+    margin-top: -404px;
+}
+
+/* !!!!eurovision2019!!!! */
+
+.nederlands {
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.italies {
+    margin-left: 500px;
+    margin-top: -449px;
+}
+
+.ruslands {
+    margin-left: 905px;
+    margin-top: -438px;
+}
+
+/* !!eurovision2021!! */
+
+.ital {
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.frankrijk {
+    margin-left: 500px;
+    margin-top: -456px;
+}
+
+.zwitserland {
+    margin-left: 905px;
+    margin-top: -412px;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ukraine {
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.space {
+    margin-left: 500px;
+    margin-top: -484px;
+}
+
+.spain {
+    margin-left: 905px;
+    margin-top: -501px;
+}
+
+.wow {
+    margin-left: 600px;
+}
+
+.dropdown {
+    margin-left: 540px;
+}
+
+
+body
+{
+    background-color: #003300;
+    overflow: hidden;
+    height: 100vh;
+}
+
+i
+{
+    position: absolute;
+    height: 200px;
+    background: linear-gradient(transparent, #fff);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    animation: animate 5s linear infinite;
+}
+
+i:nth-child(3n+1)
+{
+    background: linear-gradient(transparent, #0ff);
+}
+
+i:nth-child(3n+2)
+{
+    background: linear-gradient(transparent, #0f0);
+}
+
+i:nth-child(3n+3)
+{
+    background: linear-gradient(transparent, #f00);
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(-200px)
+    }
+    100%
+    {
+        transform: translateY(calc(100vh + 200px))
+    }
+}
